@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 
 export default function LandingPageSimple() {
   return (
-    <div className="bg-neutral-50 w-full min-h-screen p-4">
+    <div className="w-full min-h-screen p-4" style={{ backgroundColor: '#f5f3f0' }}>
       {/* Single Hero - Rounded Container */}
       <div className="relative w-full h-[calc(100vh-32px)] max-w-[2000px] mx-auto rounded-2xl overflow-hidden shadow-2xl">
         {/* Background Image */}
@@ -76,7 +76,7 @@ export default function LandingPageSimple() {
           {/* Hero Content */}
           <div className="max-w-[800px] space-y-8">
             {/* Headline */}
-            <h1 className="font-serif text-5xl md:text-6xl lg:text-7xl font-normal text-white leading-tight">
+            <h1 className="font-serif text-5xl md:text-6xl lg:text-7xl font-bold text-white leading-tight">
               Being present<br />starts here
             </h1>
 
